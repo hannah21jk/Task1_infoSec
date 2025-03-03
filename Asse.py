@@ -102,6 +102,7 @@ def start_attack():
 def stop_attack():
     stop_flag[0] = True
     messagebox.showinfo("Stopped", "The attack has been stopped.")
+stop_flag = [False] 
 
 # window design
 root = tk.Tk()
